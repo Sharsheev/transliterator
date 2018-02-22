@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Жөнөкөй HTML-документ</title>
+        <style type="text/css">
+          p{
+            font-size: 24px;
+            margin-top: 0px;
+
+          }
+          .pegistr{
+            width: 160px;
+            border: 2px solid black;
+            border-radius: 4px;
+            padding: 10px;
+            margin-left: 500px;
+          }
+          .class{
+            width: 155px;
+            border-radius: 4px;
+            border: 1px solid black;
+            background: orange;
+            margin-top: 10px;
+            text-align: center;
+            padding: 2px;
+          }
+
+        </style>
+    </head>
+    <body>
+        <strong>Бул 'about'</strong>
+
+        <div class="pegistr">
+          <p>Регистрация</p>
+          <form action="/contacts" method="post">
+          <div class="class">Имя</div>
+          <input type="text" name="firstname" placeholder="Введите имя"><br>
+          <div class="class">Фамилия</div>
+          <input type="text" name="lastname" placeholder="Введите фамилию"><br>
+          <div class="class">Пароль</div>
+          <input type="password" name="password" placeholder="Введите пароль"><br><br>
+          <input type="submit" value="Отправить">
+        </form></div>
+    </body>
+    </html>
